@@ -1,0 +1,114 @@
+.background {
+  viewport-fill: black;
+}
+
+text {
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  fill: white;
+}
+
+#myWeather {
+  font-size: 22;
+  x: 23%;
+  y: 8%;
+}
+#oneWeather {
+  font-size: 22;
+  x: 41%;
+  y: 8%;
+}
+#twoWeather {
+  font-size: 22;
+  x: 59%;
+  y: 8%;
+}
+#threeWeather {
+  font-size: 22;
+  x: 76%;
+  y: 8%;
+}
+#oneCel {
+  font-size: 15;
+  x: 29%;
+  y: 6%;
+}
+#twoCel {
+  font-size: 15;
+  x: 47%;
+  y: 6%;
+}
+#threeCel {
+  font-size: 15;
+  x: 65%;
+  y: 6%;
+}
+#fourCel {
+  font-size: 15;
+  x: 82%;
+  y: 6%;
+}
+
+#myLocation {
+  font-size: 20;
+  fill: "#6a6a6a";
+}
+
+#myTime {
+  font-size: 90;
+  x: 50%;
+  y: 27%;
+}
+
+#myDate {
+  font-size: 25;
+  x: 50%;
+  y: 12%;
+  z-index: -1;
+  fill: "#6a6a6a";
+}
+
+
+
+
+#myBattery {
+  font-size: 18;
+  x: 8%;
+  y: 60%;
+  z-index: -1;
+}
+
+#myUV {
+  font-size: 20;
+  x: 95%;
+  y: 60%;
+  z-index: -1;
+}
+
+
+
+
+
+.box {
+  z-index: -1;
+  font-size: 15;
+}
+
+#myHeart {
+  x: 80%;
+  y: 20%;
+  fill: "#d3d3d3";
+}
+
+#mySteps {
+  x: 59%;
+  y: 20%;
+  fill: "#d3d3d3";
+}
+
+#myDistance {
+  x: 35%;
+  y: 20%;
+  fill: "#d3d3d3";
+}

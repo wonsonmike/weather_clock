@@ -1,0 +1,166 @@
+<svg class="background">
+
+
+  <svg id="div-weather" y='3%' >
+    <rect x='15%' y='0' width='70%' height='30%' fill='#808080' visibility="hidden" />
+    
+    <text id="myWeather" />
+    <text id="oneCel">°C</text>
+    <image id="oneIcon" href="icons/hail.png" x="19%" y="11%" width="28" height="28"/>
+    <text id="oneTime" x="23%" y="25%" font-size="16" fill="#d3d3d3" />
+
+    <rect x="32%" y="10%" width="1%" height="13%" fill="#6a6a6a" />
+    
+    <text id="oneWeather" />
+    <text id="twoCel">°C</text>
+    <image id="twoIcon" href="icons/hail.png" x="37%" y="11%" width="28" height="28"/>
+    <text id="twoTime" x="41%" y="25%" font-size="16" fill="#d3d3d3"/>
+
+    <rect x="50%" y="10%" width="1%" height="13%" fill="#6a6a6a" />
+    
+    <text id="twoWeather" />
+    <text id="threeCel">°C</text>
+    <image id="threeIcon" href="icons/hail.png" x="55%" y="11%" width="28" height="28"/>
+    <text id="threeTime" x="59%" y="25%" font-size="16" fill="#d3d3d3"/>
+
+    <rect x="68%" y="10%" width="1%" height="13%" fill="#6a6a6a" />
+    
+    <text id="threeWeather" />
+    <text id="fourCel">°C</text>
+    <image id="fourIcon" href="icons/hail.png" x="73%" y="11%" width="28" height="28"/>
+    <text id="fourTime" x="77%" y="25%" font-size="16" fill="#d3d3d3"/>
+  </svg>
+
+  <svg id="div-location">
+    <text id="myLocation" x="50%" y="40%"/>
+  </svg>
+
+  <svg id="div-time" y='37%' >
+    <rect x='15%' y='0' width='70%' height='26%' fill='#000000' visibility="hidden"/>
+    <text id="myTime" />
+  </svg>
+
+  <svg id="div-date" y='63%' >
+    <rect x='15%' y='0' width='70%' height='10%' fill='#000000' visibility="hidden"/>
+    <text id="myDate" />
+  </svg>
+
+
+  <svg id="div-battery" y='20%' >
+    <g > 
+    <rect id="ninetyFive" x='3%' y='15%' width='5%' height='1%' fill='#00cd00' />
+    </g>
+    <g >
+    <rect id="ninety" x='3%' y='17%' width='5%' height='1%' fill='#24D400' />
+    </g>
+    <g >
+    <rect id="eightyFive" x='3%' y='19%' width='5%' height='1%' fill='#49DB00' />
+    </g>
+    <g >
+    <rect id="eighty" x='3%' y='21%' width='5%' height='1%' fill='#6DE200' />
+    </g>
+    <g >
+    <rect id="seventyFive" x='3%' y='23%' width='5%' height='1%' fill='#92EA00' />
+    </g>
+    <g >
+    <rect id="seventy" x='3%' y='25%' width='5%' height='1%' fill='#B6F100' />
+    </g>
+    <g >
+    <rect id="sixtyFive" x='3%' y='27%' width='5%' height='1%' fill='#DBF800' />
+    </g>
+    <g >
+    <rect id="sixty" x='3%' y='29%' width='5%' height='1%' fill='#FFFF00' />
+    </g>
+    <g >
+    <rect id="fiftyFive" x='3%' y='31%' width='5%' height='1%' fill='#FFF204' />
+    </g>
+    <g >
+    <rect id="fifty" x='3%' y='33%' width='5%' height='1%' fill='#FFE409' />
+    </g>
+    <g >
+    <rect id="fourtyFive" x='3%' y='35%' width='5%' height='1%' fill='#FFD70D' />
+    </g>
+    <g >
+    <rect id="fourty" x='3%' y='37%' width='5%' height='1%' fill='#FFC911' />
+    </g>
+    <g >
+    <rect id="thirtyFive" x='3%' y='39%' width='5%' height='1%' fill='#FFBC16' />
+    </g>
+    <g>
+    <rect id="thirty" x='3%' y='41%' width='5%' height='1%' fill='#FFAE1A' />
+    </g>
+    <g>
+    <rect id="twentyFive" x='3%' y='43%' width='5%' height='1%' fill='#FF9116' />
+    </g>
+    <g>
+    <rect id="twenty" x='3%' y='45%' width='5%' height='1%' fill='#FF7411' />
+    </g>
+    <g >
+    <rect id="fifteen" x='3%' y='47%' width='5%' height='1%' fill='#FF570D' />
+    </g>
+    <g >
+    <rect id="ten" x='3%' y='49%' width='5%' height='1%' fill='#FF3A09' />
+    </g>
+    <g >
+    <rect id="five" x='3%' y='51%' width='5%' height='1%' fill='#FF1D04' />
+    </g>
+    <g>
+    <rect id="zero" x='3%' y='53%' width='5%' height='1%' fill='#FF0000' />
+    </g>
+    <text id="myBattery" />
+  </svg>
+
+  <svg id="div-uv" y='20%' >
+    <g > 
+    <rect id="nineUv" x='93%' y='15%' width='5%' height='2%' fill='#FF0000' />
+    </g>
+    <g > 
+    <rect id="eightUv" x='93%' y='19%' width='5%' height='2%' fill='#FF3A09' />
+    </g>
+    <g > 
+    <rect id="sevenUv" x='93%' y='23%' width='5%' height='2%' fill='#FF7411' />
+    </g>
+    <g > 
+    <rect id="sixUv" x='93%' y='27%' width='5%' height='2%' fill='#FFAE1A' />
+    </g>
+    <g > 
+    <rect id="fiveUv" x='93%' y='31%' width='5%' height='2%' fill='#FFC911' />
+    </g>
+    <g > 
+    <rect id="fourUv" x='93%' y='35%' width='5%' height='2%' fill='#FFE409' />
+    </g>
+    <g > 
+    <rect id="threeUv" x='93%' y='39%' width='5%' height='2%' fill='#FFFF00' />
+    </g>
+    <g > 
+    <rect id="twoUv" x='93%' y='43%' width='5%' height='2%' fill='#B6F100' />
+    </g>
+    <g > 
+    <rect id="oneUv" x='93%' y='47%' width='5%' height='2%' fill='#6DE200' />
+    </g>
+    <g>
+    <rect id="zeroUv" x='93%' y='51%' width='5%' height='2%' fill='#24D400' />
+    </g>
+    <text id="myUV" />
+  </svg>
+
+
+
+  <svg id="div-heart" y='77%' >
+    <text class="box" id="myHeart" />
+    <image id="heartIcon" href="icons/heart.png" x="69%" y="11%" width="24" height="28"/>
+  </svg>
+
+  <svg id="div-steps" y='77%' >
+    <text class="box" id="mySteps" />
+    <image id="stepsIcon" href="icons/steps.png" x="45%" y="11%" width="28" height="28"/>
+  </svg>
+
+  <svg id="div-calories" y='77%' >
+    <text class="box" id="myDistance" />
+    <image id="distanceIcon" href="icons/distance.png" x="23%" y="11%" width="28" height="28"/>
+  </svg>
+
+
+
+</svg>
