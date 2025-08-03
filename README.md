@@ -6,6 +6,8 @@ The weather at the top shows the weather for the current hour, plus the next 3 h
 In the middle, there's the time, date, and location.
 At the bottom is the current heart rate of the user, the amount of steps taken that day, and the distance traveled that day by foot.
 
+[Demo Video](https://youtu.be/t9FQpmnbYw4)
+
 # Development Environment
 
 This is mainly javascript, with some basic css. Node.js was used, and I used the Open Weather Map API.
